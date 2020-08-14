@@ -9,6 +9,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "eslint --ext .js --ext .vue src/"
   },
+  "husky": {
+   "hooks": {
+     "pre-commit": "npm run precommit",
+     "pre-push": "npm run precommit"
+   }
+  },
   "author": "zq",
   "license": "ISC",
   "devDependencies": {

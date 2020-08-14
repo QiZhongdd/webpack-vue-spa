@@ -10,7 +10,7 @@
 export default {
   name: 'App',
 }
-</script>
+</script> 
 
 <style lang='postcss'>
 #app{
