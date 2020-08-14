@@ -1,0 +1,49 @@
+{
+  "name": "singlewebpack",
+  "version": "1.0.0",
+  "description": "webpack单页面",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "eslint --ext .js --ext .vue src/"
+  },
+  "author": "zq",
+  "license": "ISC",
+  "devDependencies": {
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.1.0",
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "speed-measure-webpack-plugin": "^1.3.3",
+    "terser-webpack-plugin": "^3.0.8",
+    "thread-loader": "^2.1.3",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-deep-scope-plugin": "^1.6.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9",
+    "yargs-parser": "^18.1.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
