@@ -15,7 +15,7 @@ export default {
 <style lang='postcss'>
 #app{
  & span{
-  color:var(--fontColor);
+  color:var(--foantColor);
  } 
 }
  </style>
