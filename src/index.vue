@@ -1,23 +1,7 @@
 <template>
   <div id='app'>
-   <span class="sss">aaaaa</span>
+    <span class="sss">aaaaa</span>
     sssssaaaaaaaaaaaallllllaaaassssss
-    <h1>ssssaaaaaaa</h1>
+    <h1>ssssasssaaa</h1>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'App',
-}
-</script> 
-
-<style lang='postcss'>
-#app{
- & span{
-  color:var(--foantColor);
- } 
-}
- </style>
-
-
