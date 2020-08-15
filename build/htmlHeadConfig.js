@@ -1,5 +1,5 @@
 module.exports = {
-  title: "appName",
-  ico: "assest/favicon.ico",
-  template: "./public/index.html",
+    title: 'appName',
+    ico: '../assest/favicon.ico',
+    template: './public/index.html'
 };

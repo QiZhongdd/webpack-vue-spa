@@ -7,29 +7,32 @@
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "eslint --ext .js --ext .vue src/"
+    "precommit": "eslint --ext .js --ext .html --ext .css  --ext .vue src/"
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run precommit",
-      "pre-push": "npm  test"
+      "pre-push": "npm run precommit"
     }
   },
   "author": "zq",
   "license": "ISC",
   "devDependencies": {
+    "@vue/eslint-config-standard": "^5.1.2",
     "cache-loader": "^4.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.1.0",
     "eslint": "^7.6.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-loader": "^4.0.2",
-    "eslint-plugin-html": "^6.0.3",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
+    "hard-source-webpack-plugin": "^0.13.1",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
     "mini-css-extract-plugin": "^0.9.0",
@@ -37,9 +40,11 @@
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
     "speed-measure-webpack-plugin": "^1.3.3",
     "terser-webpack-plugin": "^3.0.8",
     "thread-loader": "^2.1.3",
+    "url-loader": "^4.1.0",
     "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.44.0",
